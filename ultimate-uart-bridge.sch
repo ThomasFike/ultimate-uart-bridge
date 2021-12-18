@@ -213,15 +213,15 @@ F 3 "" H 6200 1550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 3450 3450 2    50   Input ~ 0
-USB_DP
+USBD_P
 Text GLabel 3450 3550 2    50   Input ~ 0
-USB_DM
+USBD_N
 Wire Wire Line
 	2500 3450 2650 3450
 Text GLabel 4300 3550 0    50   Output ~ 0
-USB_DP
+USBD_P
 Text GLabel 4300 3450 0    50   Output ~ 0
-USB_DM
+USBD_N
 Wire Wire Line
 	4300 3450 4700 3450
 Wire Wire Line
@@ -394,7 +394,7 @@ U 1 1 61007BD4
 P 2850 3250
 F 0 "FB101" V 2705 3250 50  0000 C CNN
 F 1 "Ferrite_Bead_Small" V 2704 3250 50  0001 C CNN
-F 2 "Filter:Filter_1411-5_1.4x1.1mm" V 2780 3250 50  0001 C CNN
+F 2 "Ferrite_THT:LairdTech_28C0236-0JW-10" V 2780 3250 50  0001 C CNN
 F 3 "~" H 2850 3250 50  0001 C CNN
 	1    2850 3250
 	0    1    1    0   
